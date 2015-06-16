@@ -1,0 +1,19 @@
+{@lasso-page packagePath="./browser.json" /}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lasso.js Demo - Dust</title>
+    {@lasso-head /}
+</head>
+<body>
+    <h1 id="header">Lasso.js Demo - Dust</h1>
+
+    Hello {name}!
+
+    <div id="target"></div>
+
+    {@lasso-body /}
+</body>
+</html>
