@@ -14,15 +14,10 @@
   },
   "dependencies": {
     "compression": "^1.5.0",
-    "dustjs-linkedin": "^2.7.2",
     "express": "^4.12.4",
-    "lasso": "^1.9.2",
-    "lasso-dust": "^1.1.5",
+    "lasso": "^1.11.1",
     "lasso-less": "^2.1.1",
     "lasso-marko": "^2.0.4",
-    "marko": "^2.7.1",
-    "serve-static": "^1.9.3",
-    "view-engine": "^1.1.1",
-    "view-engine-dust": "^1.0.6"
+    "marko": "^2.7.1"
   }
 }

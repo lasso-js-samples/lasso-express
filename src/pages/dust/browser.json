@@ -1,6 +1,0 @@
-{
-    "dependencies": [
-        "require-run: ./client",
-        "style.less"
-    ]
-}
