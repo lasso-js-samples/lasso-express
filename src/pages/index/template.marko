@@ -1,19 +1,15 @@
 <lasso-page package-path="./browser.json"/>
-
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Express + Lasso + Marko</title>
-    <lasso-head/>
-</head>
-<body>
-    <h1 id="header">Express + Lasso + Marko</h1>
-
-    Hello $data.name!
-
-    <div id="target"></div>
-
-    <lasso-body/>
-</body>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Express + Lasso + Marko</title>
+        <lasso-head/>
+    </head>
+    <body>
+        <h1 id="header">Express + Lasso + Marko</h1>
+        Hello ${data.name}!
+        <div id="target"/>
+        <lasso-body/>
+    </body>
 </html>
